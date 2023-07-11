@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      src="https://kit.fontawesome.com/2970948f95.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Woof Dashboard</title>
+  </head>
+  <body class="grid grid-cols-12 w-screen">
+      <div class="nav-sidebar lg:col-span-3 col-span-4 bg-sky-500 h-screen">
+        <h1 class="text-3xl font-bold p-4 mb-4 text-white font-semibold flex">
+          <i class="fa-solid fa-dog fa-bounce mr-4"></i> Woofboard
+        </h1>
+        <div class="nav-links flex flex-col gap-4 items-left pl-8">
+          <a href="index.html" class="text-white font-semi-bold text-lg"
+            ><i class="fa-solid fa-house mr-4"></i> Home</a
+          >
+          <a href="index.html" class="text-white font-semi-bold text-lg"
+            ><i class="fa-solid fa-user mr-6"></i>Profile</a
+          >
+          <a href="index.html" class="text-white font-semi-bold text-lg"
+            ><i class="fa-solid fa-message mr-4"></i> Messages</a
+          >
+          <a href="index.html" class="text-white font-semi-bold text-lg"
+            ><i class="fa-solid fa-clock-rotate-left mr-4"></i> History</a
+          >
+          <a href="index.html" class="text-white font-semi-bold text-lg"
+            ><i class="fa-solid fa-list-check mr-4"></i> Tasks
+          </a>
+          <a href="index.html" class="text-white font-semi-bold text-lg">
+            <i class="fa-solid fa-people-group mr-4"></i>Communities</a
+          >
+          <a href="index.html" class="text-white font-semi-bold text-lg pt-8">
+            <i class="fa-solid fa-gear mr-4"></i> Settings</a
+          >
+          <a href="index.html" class="text-white font-semi-bold text-lg">
+            <i class="fa-solid fa-headset mr-4"></i> Support</a
+          >
+          <a href="index.html" class="text-white font-semi-bold text-lg">
+            <i class="fa-solid fa-lock mr-4"></i> Privacy</a
+          >
+        </div>
+      </div>
+
+      <div
+      class="main-content lg:col-span-9 col-span-8  max-h-screen overflow-hidden" 
+    >
+      <div class="main-nav row-span-1 p-4 ">
+        <div class="wrapper flex space-between items-center gap-4">
+          <i class="fa-solid fa-magnifying-glass fa-xl pr-4"></i><input type="text" placeholder="Search" class="bg-slate-200 rounded-xl p-2 lg:w-1/2 w-3/4 text-slate-800 " placeholder="Search"></input>
+          <i class="fa-solid fa-bell fa-lg pl-8"></i>
+          <img src="./images/dachshund.png" class="inline ml-4 bg-yellow-400 h-16 rounded-full p-2"alt="" >
+          <p class="inline-block text-xl font-bold ">Long</p>
+        </div>
+        <div class="wrapper flex flex-row pt-4 justify-between">
+          <div class="group-wrapper flex">
+            <img src="./images/dachshund.png" class="inline ml-4 bg-yellow-400 h-16 rounded-full p-2"alt="" >
+            <div class="text-wrapper ml-4">
+              <p class="text-sm">Hi there,</p>
+              <p class="text-lg font-bold pt-2">Long(@Longtheterminator)</p>
+            </div>
+          </div>
+          <div class="group-wrapper">
+          
+            <button type="button" class="text-blue-700 text-white hover:bg-white hover:text-black border-2 border-blue-700 bg-sky-400 hover:white focus:outline-none  font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 ">New</button>
+            <button type="button" class="text-blue-700 text-white hover:bg-white hover:text-black border-2 border-blue-700 bg-sky-400 hover:white focus:outline-none  font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 ">Upload</button>
+            <button type="button" class="text-blue-700 text-white hover:bg-white hover:text-black border-2 border-blue-700 bg-sky-400 hover:white focus:outline-none  font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 ">Share</button>
+          
+
+          </div>
+        </div>
+       
+        
+
+      </div>
+      <div class="main-feed row-span-5 h-screen">
+          <p class="text-left pl-10 pt-4 text-2xl font-semibold">Your projects</p>
+      </div>
+    </div>
+
+
+
+    </div>
+  </body>
+</html>
